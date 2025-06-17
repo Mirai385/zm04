@@ -1,0 +1,17 @@
+[project]
+name = "zm04"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mirai385", email = "mirai1069@icloud.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+zm04 = "zm04:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
