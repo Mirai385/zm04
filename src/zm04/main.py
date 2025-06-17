@@ -30,3 +30,14 @@ def gcd(x: int, y: int):
     """
     typer.echo(mathtools.gcd(x, y))
 
+@app.command()
+def lcm(x:int, y:int):
+    typer.echo(mathtools.lcm(x, y))
+
+@app.command()
+def divisors(m:int):
+    typer.echo(mathtools.divisors(m))
+
+@app.command()
+def is_prime(m:int):
+    typer.echo(mathtools.is_prime(m))
