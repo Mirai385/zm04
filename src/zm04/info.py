@@ -20,7 +20,7 @@ sources = {
 }
 
 for name, url in sources.items():
-    print(f"\n ◎{name} のニュース")
+    print(f"\n ◎{name}のニュース")
     try:
         with urllib.request.urlopen(url) as response:
             data = response.read()
