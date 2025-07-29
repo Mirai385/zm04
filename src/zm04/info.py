@@ -11,7 +11,7 @@ console = Console()
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 表示したいRSSフィード（国内 + 国際）
+# 表示したいフィード（国内 + 国際）
 sources = {
     "NHK": "https://www3.nhk.or.jp/rss/news/cat0.xml",
     "BBC": "http://feeds.bbci.co.uk/news/world/rss.xml",
