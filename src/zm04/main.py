@@ -59,7 +59,9 @@ def info():
     }
 
     for name, url in sources.items():
+        print("=" * 50)
         print(f"\n◎ {name} のニュース")
+        print("-" * 50)
         try:
             with urllib.request.urlopen(url) as response:
                 data = response.read()
